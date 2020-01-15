@@ -1,2 +1,2 @@
 include ':app', ':indicatorimagebutton'
-rootProject.name='CustomAndroidWidgets'
+
