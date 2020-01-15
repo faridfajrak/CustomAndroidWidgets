@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomIndicatorButton">
+        <attr name="android:enabled" />
+        <attr name="android:text" />
+        <attr name="indicator_text_size" format="dimension"/>
+        <attr name="isComplete" format="boolean"/>
+        <attr name="indicator_background" format="reference"/>
+        <attr name="text_box_alignment" format="enum">
+            <enum name="text_box_right" value="1"/>
+            <enum name="text_box_left" value="2"/>
+            <enum name="text_box_bottom" value="3"/>
+            <enum name="text_box_top" value="4"/>
+        </attr>
+        <attr name="icon_enable" format="reference" />
+        <attr name="icon_disable" format="reference" />
+        <attr name="indicator_icon" format="reference"/>
+        <attr name="indicator_text_font_family" format="reference"/>
+    </declare-styleable>
+
+</resources>
